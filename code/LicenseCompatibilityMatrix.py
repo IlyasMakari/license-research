@@ -3,7 +3,6 @@ class LicenseCompatibilityMatrix:
     def __init__(self, nodes, edges):
         self.nodes = nodes
         self.matrix = self.transitive_closure(edges)
-        print(self.matrix)
 
     def reachable_nodes(self, graph, v):
         visited = {}

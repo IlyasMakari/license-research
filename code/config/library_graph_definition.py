@@ -4,7 +4,7 @@
 nodes = {
     **dict.fromkeys(['Unlicense', 'WTFPL', 'CC0-1.0', '0BSD', 'Other'], 'public-domain'), # Making the underestimation that "Other" (i.e. No license found) means public domain
     **dict.fromkeys(['Zlib', 'Libpng'], 'zlib/libpng'),
-    **dict.fromkeys(['MIT', 'MIT-0', 'X11', 'ISC'], 'MIT/X11'),
+    **dict.fromkeys(['MIT', 'MIT-0', 'X11', 'ISC', 'ICU'], 'MIT/X11'), # Assuming ICU is equivalent to MIT
     **dict.fromkeys(['AFL-3.0'], 'AFL-3.0'),
     **dict.fromkeys(['Apache-2.0'], 'Apache-2.0'),
     **dict.fromkeys(['BSD-3-Clause'], '3-clause / New BSD'),
