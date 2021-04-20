@@ -2,9 +2,9 @@
 # license identifiers that refer to a node --> unique name for that node
 
 nodes = {
-    **dict.fromkeys(['Unlicense', 'WTFPL', 'CC0-1.0', '0BSD', 'Other'], 'public-domain'),
+    **dict.fromkeys(['Unlicense', 'WTFPL', 'CC0-1.0', '0BSD', 'Other', 'Ruby'], 'public-domain'), # Ruby allows you to re-license under any oss license, as long as you state your modifications. Or under the GPL with no extra conditions
     **dict.fromkeys(['Zlib', 'Libpng'], 'zlib/libpng'),
-    **dict.fromkeys(['MIT', 'MIT-0', 'X11', 'ISC', 'ICU'], 'MIT/X11'), # Assuming ICU is equivalent to MIT
+    **dict.fromkeys(['MIT', 'MIT-0', 'X11', 'ISC', 'ICU', 'Beerware'], 'MIT/X11'), # Assuming ICU is equivalent to MIT
     **dict.fromkeys(['AFL-3.0'], 'AFL-3.0'),
     **dict.fromkeys(['Apache-2.0'], 'Apache-2.0'),
     **dict.fromkeys(['BSD-3-Clause'], '3-clause / New BSD'),
